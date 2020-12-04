@@ -33,6 +33,8 @@ namespace _4 {
             //         validPassports++;
             // }
 
+            //////PARTE 2////////
+
             HashSet<string> eyeColors = new HashSet<string> { "amb", "blu", "brn", "gry", "grn", "hzl", "oth" };
             Regex rHex = new Regex(@"^[A-Fa-f0-9]*$");
             Regex rPid = new Regex(@"^[0-9]*$");
