@@ -15,12 +15,10 @@ namespace _10 {
 
             //////PARTE 1
             int cont1 = 0;
-            int cont2 = 0;
             int cont3 = 0;
 
             for (int i = 0; i < inputJolts.Count - 1; i++) {
                 if (inputJolts[i + 1] - inputJolts[i] == 1) cont1++;
-                if (inputJolts[i + 1] - inputJolts[i] == 2) cont2++;
                 if (inputJolts[i + 1] - inputJolts[i] == 3) cont3++;
             }
 
