@@ -104,7 +104,7 @@ namespace _12 {
                 }
             }
 
-            Console.WriteLine("First distance found: " + shipX + " + " + shipY + " = " + (Math.Abs(shipX) + Math.Abs(shipY)));
+            Console.WriteLine("Second distance found: " + shipX + " + " + shipY + " = " + (Math.Abs(shipX) + Math.Abs(shipY)));
 
         }
 
